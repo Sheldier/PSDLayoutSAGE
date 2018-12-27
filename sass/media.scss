@@ -1,0 +1,39 @@
+@media (max-width: 993px){
+	.infinity .leftsec{
+		padding: 650px 50px 0 50px !important;
+	}
+	.infinity p{
+		font-size: 24px !important;
+	}
+	header .headermenu li:first-child{
+		margin-right: 20px;
+	}
+	.stayconnected .stayconnected__upperboxes{
+		margin: 42px 0 0px 0;
+	}
+	footer li a{
+		font-size: 24px !important;
+	}
+	.lastsec .redbox p{
+		font-size: 48px !important;
+	}
+	.lastsec .redbox span{
+		font-size: 36px !important;
+	}
+	p{
+		font-size: 22px;
+	}
+	a{
+		font-size: 18px;
+		margin: 0 20px;
+	}
+
+}
+@media (max-width: 1050px){
+	.infinity .rightsec__upper{
+		padding: 320px 0 50px 50px !important;
+	}
+	.infinity .rightsec__lower{
+		padding: 320px 0 50px 50px !important;
+	}
+}

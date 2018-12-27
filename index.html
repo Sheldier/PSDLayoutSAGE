@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1"><div class="logo"><img src="img/SAGE.png" alt=""></div></div>
+				<div class="col-md-6 offset-2">
+					<nav>
+						<ul>
+							<li><a href="">Home</a></li>
+							<li><a href="">Projects</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Services</a></li>
+							<li><a href="">Get in Touch</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-2 offset-1">
+					<ul class="headermenu">
+						<li>
+							<select>
+						  		<option>En</option>
+						  		<option>Ru</option>
+							</select>
+						</li>
+						<li><button><i class="fa fa-lg fa-search" aria-hidden="true"></i></button></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-4 ml-auto">
+					<div class="searchbox">
+						<form action="">
+							<input type="text" placeholder="Type here...">
+							<input type="submit" value="Send">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="h1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>let us make your <br> awesome idea happen</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 d-flex justify-content-center"><button class="btnh1"><i class="fa fa-play"></i>Watch showreel</button></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 d-flex justify-content-center">
+				<div class="boxh1">
+					<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="0.306in" height="0.444in">
+<path fill-rule="evenodd"  fill="rgb(244, 243, 241)"
+ d="M11.000,32.000 C4.925,32.000 -0.000,27.075 -0.000,21.000 L-0.000,11.000 C-0.000,4.925 4.925,-0.000 11.000,-0.000 C17.075,-0.000 22.000,4.925 22.000,11.000 L22.000,21.000 C22.000,27.075 17.075,32.000 11.000,32.000 ZM20.000,11.000 C20.000,6.029 15.971,2.000 11.000,2.000 C6.029,2.000 2.000,6.029 2.000,11.000 L2.000,21.000 C2.000,25.970 6.029,29.999 11.000,29.999 C15.971,29.999 20.000,25.970 20.000,21.000 L20.000,11.000 ZM11.000,13.000 C10.448,13.000 10.000,12.552 10.000,12.000 L10.000,8.000 C10.000,7.447 10.448,7.000 11.000,7.000 C11.552,7.000 12.000,7.447 12.000,8.000 L12.000,12.000 C12.000,12.552 11.552,13.000 11.000,13.000 Z"/>
+</svg>
+					<p>discover mode</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="secondsect">
+		<div class="row">
+			<div class="col-md-12 d-flex justify-content-center">
+				<div class="box-second">
+					<h3>we develop web sites and apps for organisations <br> who want to do something new online</h3>
+					<button>explore more</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="infinity">
+		<div class="leftsec">
+			<div id="infoboxes" class="leftsec__infobox" >
+				<h5> {{ h5 }} </h5>
+				<h2>{{ h2 }}</h2>
+				<p>{{ text }}</p>
+				<div class="leftsec__switchers">
+					<button v-on:click="fetchData1" v-bind:class="{activebtn : isActive1 }"></button>
+					<button v-on:click="fetchData2" v-bind:class="{activebtn : isActive2 }"></button>
+				</div>
+			</div>
+		</div>
+			<div class="rightsec__upper">
+				<h2>Model S</h2>
+				<p>Information materials that will help to discover all the possibilities of the serial electric car Tesla Model S.</p>
+			</div>
+			<div class="rightsec__lower">
+				<h2>Curiosity</h2>
+				<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
+			</div>
+	</section>
+	<section class="showmore">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="showmore__linkbox">
+						<a href="">show more projects</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="stayconnected">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<div class="stayconnected__upperboxes">
+						<img src="img/copy.png" alt="copy">
+						<h4>Exclusive and flexible theme</h4>
+						<p>Brilliant elegant club guests first-class. To gilded in crafted regal. Suite using crafted for wealth topiary. Wealth gold career de-jour left pedigree panoramic designer.</p>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="stayconnected__upperboxes">
+						<img src="img/many.png" alt="many">
+						<h4>Material and retina design</h4>
+						<p>Warm clean bold. World's permanent a any this rosy multi-purpose. Magically fat-free deeply remarkable amazing wherever easily much spicey simulated ideal UI high-tech sensible. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="staybox">
+						<h1>Stay connected</h1>
+						<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
+					</div>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-space">
+				<div class="col-12 col-lg-3">
+					<div class="logoblock logoblock_first">
+						<img src="img/behance.png" alt="">
+						<span>Behance</span>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div class="logoblock">
+						<img src="img/facebook.png" alt="">
+						<span>Facebook</span>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div class="logoblock">
+						<img src="img/pinterest.png" alt="">
+						<span>Pinterest</span>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div class="logoblock logoblock_first">
+						<img src="img/linkedin.png" alt="">
+						<span>Linkedin</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="lastsec">
+		<div class="container">
+			<div class="row  d-flex justify-content-center">
+				<div class="col-md-6">
+					<div class="redbox">
+						<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="0.333in" height="0.444in">
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M12.000,32.000 C12.000,32.000 0.000,19.912 0.000,11.999 C0.000,5.372 5.373,-0.000 12.000,-0.000 C18.627,-0.000 24.000,5.372 24.000,11.999 C24.000,19.769 12.000,32.000 12.000,32.000 ZM12.000,2.000 C6.477,2.000 2.000,6.533 2.000,12.124 C2.000,18.735 12.000,29.000 12.000,29.000 C12.000,29.000 22.000,18.668 22.000,12.124 C22.000,6.533 17.523,2.000 12.000,2.000 ZM12.000,16.000 C9.791,16.000 8.000,14.209 8.000,12.000 C8.000,9.791 9.791,8.000 12.000,8.000 C14.209,8.000 16.000,9.791 16.000,12.000 C16.000,14.209 14.209,16.000 12.000,16.000 ZM12.000,10.000 C10.895,10.000 10.000,10.895 10.000,12.000 C10.000,13.105 10.895,14.000 12.000,14.000 C13.105,14.000 14.000,13.105 14.000,12.000 C14.000,10.895 13.105,10.000 12.000,10.000 Z"/>
+</svg>
+						<span>Head office<br>New York, NY, USA</span>
+						<p>Rockfeller center, 45</p>
+						<p>1 123 444 5678</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-3">
+					<div class="fbox">
+						<h3>Sage</h3>
+						<ul>
+							<li><a href="">About Sage Theme</a></li>
+							<li><a href="">Our Mission</a></li>
+							<li><a href="">Geography</a></li>
+							<li><a href="">Principles</a></li>
+							<li><a href="">History</a></li>
+							<li><a href="">Approach</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="fbox">
+						<h3>Our services</h3>
+						<div class="ulbox">
+							<ul>
+								<li><a href="">Integrated Campaigns</a></li>
+								<li><a href="">Strategy</a></li>
+								<li><a href="">Creative and Design</a></li>
+								<li><a href="">Digital Production</a></li>
+								<li><a href="">Creative Direction</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Editorial Design</a></li>
+								<li><a href="">Social Media</a></li>
+								<li><a href="">Media Planning</a></li>
+								<li><a href="">Print and Trade</a></li>
+								<li><a href="">Support</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div class="fbox">
+						<h3>Our works</h3>
+						<ul>
+							<li><a href="">Return</a></li>
+							<li><a href="">Mobile Applications</a></li>
+							<li><a href="">Editorial</a></li>
+							<li><a href="">Digital Production</a></li>
+							<li><a href="">Installations</a></li>
+							<li><a href="">Trade</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/bootstrap-grid/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
